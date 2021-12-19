@@ -1,0 +1,4 @@
+Hello From File
+This is 2nd line from File
+You know what is file
+\nThis append from fileThis append from fileThis append from fileThis append from fileThis append from fileThis append from fileThis append from fileThis append from fileThis append from fileThis append from file

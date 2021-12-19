@@ -1,0 +1,24 @@
+To kill rails server use: sudo kill -9 $(lsof -i :3000 -t)
+Push on github: 	git push --set-upstream origin dev
+Check All commits:	git log
+
+Gems of bootstap and js in rails
+
+gem 'bootstrap', '~> 5.0', '>= 5.0.1'
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
+gem 'jquery-rails', '~> 4.4'
+
+application.css.scss-------------------------------
+*= require_self
+
+@import "bootstrap";
+@import "--------.scss";
+
+------------------application.js--------------------------
+//= require rails-ujs
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+//= require_tree .
+
+
